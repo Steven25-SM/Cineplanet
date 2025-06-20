@@ -16,6 +16,7 @@ $result = mysqli_query($conn, "SELECT * FROM solicitudes_sala ORDER BY fecha DES
 <head>
   <meta charset="UTF-8">
   <title>Solicitudes de Salas</title>
+  <link rel="icon" type="image/png" href="media/logo2.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 

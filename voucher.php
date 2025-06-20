@@ -5,7 +5,7 @@ require_once 'db/config.php';
 $socio_nombre = "Cliente";
 $socio_correo = "";
 
-if (!empty($_SESSION['dni']) && isset($_SESSION['rol']) && $_SESSION['rol'] === 'socio') {
+if (!empty($_SESSION['dni'])) {
     $dni_socio = $_SESSION['dni'];
     $stmt_socio = $conn->prepare("SELECT nombre, apellido, email FROM socios WHERE dni = ?");
     $stmt_socio->bind_param("s", $dni_socio);
@@ -16,6 +16,8 @@ if (!empty($_SESSION['dni']) && isset($_SESSION['rol']) && $_SESSION['rol'] === 
         $socio_correo = $row['email'];
     }
 }
+
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['metodo'])) {
     $dni = $_SESSION['dni'] ?? '00000000';
@@ -99,6 +101,19 @@ if (isset($_SESSION['compra_id']) && !isset($compra_data)) {
     $stmt->bind_param("i", $compra_id);
     $stmt->execute();
     $compra_data = $stmt->get_result()->fetch_assoc();
+
+    // 💡 AÑADIDO: volver a obtener nombre si es socio
+    if (!empty($_SESSION['dni']) && $compra_data['socio_nombre'] === 'Cliente') {
+        $stmt2 = $conn->prepare("SELECT nombre, apellido, email FROM socios WHERE dni = ?");
+        $stmt2->bind_param("s", $_SESSION['dni']);
+        $stmt2->execute();
+        $res = $stmt2->get_result();
+        if ($row = $res->fetch_assoc()) {
+            $compra_data['socio_nombre'] = $row['nombre'] . ' ' . $row['apellido'];
+            $compra_data['socio_correo'] = $row['email'];
+        }
+    }
+
 
     $stmt2 = $conn->prepare("SELECT asiento FROM asientos_reservados WHERE compra_id = ?");
     $stmt2->bind_param("i", $compra_id);

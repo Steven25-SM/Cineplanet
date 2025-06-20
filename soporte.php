@@ -78,10 +78,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <label for="tipo" class="form-label">Tipo de ticket</label>
             <select name="tipo" id="tipo" class="form-select" required>
                 <option value="">Selecciona una opción</option>
-                <option value="problema">Problema técnico</option>
-                <option value="consulta">Consulta general</option>
-                <option value="reembolso">Solicitar reembolso</option>
-                <option value="otro">Otro</option>
+                <option value="Problema técnico">Problema técnico</option>
+                <option value="Consulta general">Consulta general</option>
+                <option value="Solicitar reembolso">Solicitar reembolso</option>
+                <option value="Otro">Otro</option>
             </select>
         </div>
         <div class="mb-3">

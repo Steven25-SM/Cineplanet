@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Cineplanet</title>
-  <link rel="icon" type="icon/png" href="media/logo1.png">
+  <link rel="icon" type="image/png" href="media/logo1.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
     
@@ -69,6 +69,25 @@ h3 {
   
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  width: 6%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* fondo oscuro semitransparente */
+  padding: 20px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: rgba(229, 2, 70, 0.8); /* color rojizo al hacer hover */
+}
+
+
   </style> 
 </head>
 <body class="inicio">
@@ -109,7 +128,7 @@ if (isset($_SESSION['usuario'])) {
     </div>
 
     <div class="carousel-item">
-      <img src="media/banner3.jpg" alt="Banner">
+      <img src="media/banner2.jpg" alt="Banner">
       <div class="carousel-caption">
         <h3><span class="red-title">Exterminio</span><br><span>la evolución</span></h3>
         <p>Trama no develada. Tercera película de la franquicia<br>"28 días después".</p>
@@ -118,7 +137,7 @@ if (isset($_SESSION['usuario'])) {
     </div>
 
     <div class="carousel-item">
-      <img src="media/banner2.jpg" alt="Banner">
+      <img src="media/banner3.jpg" alt="Banner">
       <div class="carousel-caption">
         <h3><span class="red-title">Como</span><br><span>Entrenar a Tu<br> dragón</span></h3>
         <p>Un joven vikingo aspira a cazar dragones, pero se convierte<br> inesperadamente en el amigo de un dragón.</p>
@@ -152,7 +171,7 @@ if (isset($_SESSION['usuario'])) {
             <div class="card movie-card">
               <img src="https://cdn.apis.cineplanet.com.pe/CDN/media/entity/get/FilmPosterGraphic/HO00002252?referenceScheme=HeadOffice&allowPlaceHolder=true">
                <div class="card-body d-flex justify-content-center">
-                <a href="http://localhost:3000/seleccionar_butacas.php?id=8&titulo=THUNDERBOLTS&poster=%2Fmedia%2Fportadas%2F1744752722.jpg" class="btn btn-primary w-100">Comprar</a>
+                <a href="seleccionar_butacas.php?id=8&titulo=THUNDERBOLTS&poster=media%2Fportadas%2Fthunderbolts.jpg" class="btn btn-primary w-100">Comprar</a>
 
               </div>
             </div>
@@ -162,7 +181,7 @@ if (isset($_SESSION['usuario'])) {
             <div class="card movie-card">
               <img src="https://cdn.apis.cineplanet.com.pe/CDN/media/entity/get/FilmPosterGraphic/HO00002390?referenceScheme=HeadOffice&allowPlaceHolder=true" class="card-img-top" alt="...">
               <div class="card-body d-flex justify-content-center">
-                <a href="/seleccionar_butacas.php?id=5&titulo=DESTINO%20FINAL%20LAZOS%20DE%20SANGRE&poster=%2Fmedia%2Fportadas%2F1746626561.png" class="btn btn-primary w-100">Comprar</a>
+                <a href="seleccionar_butacas.php?id=5&titulo=DESTINO%20FINAL%20LAZOS%20DE%20SANGRE&poster=media%2Fportadas%2Fdestino_final_6.png" class="btn btn-primary w-100">Comprar</a>
 
               </div>
             </div>
@@ -172,7 +191,7 @@ if (isset($_SESSION['usuario'])) {
         <div class="card movie-card">
           <img src="https://cdn.apis.cineplanet.com.pe/CDN/media/entity/get/FilmPosterGraphic/HO00002413?referenceScheme=HeadOffice&allowPlaceHolder=true" class="card-img-top" alt="...">
           <div class="card-body d-flex justify-content-center">
-            <a href="/seleccionar_butacas.php?id=1&titulo=ARMAGEDÓN%3A%20DIOSES%20DEL%20APOCALIPSIS&poster=%2Fmedia%2Fportadas%2FHO00002413.jpg" class="btn btn-primary w-100">Comprar</a>
+            <a href="seleccionar_butacas.php?id=1&titulo=ARMAGEDÓN%3A%20DIOSES%20DEL%20APOCALIPSIS&poster=media%2Fportadas%2Farmagedon.jpg" class="btn btn-primary w-100">Comprar</a>
 
           </div>
         </div>
@@ -210,7 +229,7 @@ function cerrarCumple() {
       <div class="col-md-6 text-md-end mt-3 mt-md-0">
         <a href="https://cdnpe.cineplanet.com.pe/assets/1862f49f-807a-44cc-bf34-629d915042e7" class="text-light me-3 text-decoration-none">Términos</a>
         <a href="https://cdnpe.cineplanet.com.pe/assets/0b1cdd88-83a2-48b7-820b-8bac386ced30" class="text-light me-3 text-decoration-none">Política</a>
-        <a href="/soporte.php" class="text-light text-decoration-none">Soporte</a>
+        <a href="soporte.php" class="text-light text-decoration-none">Soporte</a>
       </div>
     </div>
     <div class="row border-top pt-3">
@@ -235,23 +254,6 @@ function cerrarCumple() {
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-  const navbar = document.querySelector('.navbar');
-  const esIndex = window.location.pathname.endsWith('index.php') || window.location.pathname === '/';
-
-  if (esIndex) {
-    navbar.classList.add('inicio'); 
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 10) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
-    });
-  } else {
-    navbar.classList.add('fondo-fijo'); 
-  }
-</script>
-
+ 
 </body>
 </html>

@@ -54,7 +54,7 @@ $stmt->bind_param('sssssssss', $nombre, $apellido, $dni, $celular, $email, $pass
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Registro - Cineplanet</title>
   <link rel="stylesheet" href="registro.css">
-  <link rel="icon" type="icon/png" href="/media/images-removebg-preview.png">
+  <link rel="icon" type="image/png" href="media/logo1.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
     body {

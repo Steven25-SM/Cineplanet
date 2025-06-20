@@ -8,6 +8,7 @@ $dni = isset($_SESSION['dni']) ? $_SESSION['dni'] : null;
 <head>
   <meta charset="UTF-8">
   <title>Solicitar Sala Especial</title>
+  <link rel="icon" type="image/png" href="media/logo1.png">
   <style>
     body {
       font-family: Arial, sans-serif;

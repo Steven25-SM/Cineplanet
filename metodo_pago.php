@@ -19,7 +19,7 @@ if ($total_a_pagar <= 0) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Método de Pago</title>
-  <link rel="icon" type="icon/png" href="/media/images-removebg-preview.png">
+  <link rel="icon" type="image/png" href="media/logo1.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body { background-color: #111; color: white; }

@@ -145,7 +145,7 @@
         sinopsis: "Una epopeya de fantasía oriental que recrea las prolongadas guerras míticas entre humanos, inmortales y monstruos que tuvieron lugar hace más de tres mil años.",
         disponibilidad: "Cartelera",
         idioma: ["Subtitulada", "Doblada"],
-        poster: "/media/portadas/HO00002413.jpg"
+        poster: "/media/portadas/armagedon.jpg"
       },
       {
         id: 2,
@@ -157,7 +157,7 @@
         sinopsis: "Tercera entrega de la saga 'Exterminio'. Años después del brote inicial, los sobrevivientes enfrentan una nueva variante más mortal. En medio del caos, un grupo lucha por detener la evolución del virus antes de que sea irreversible.",
         disponibilidad: "Cartelera",
         idioma: ["Subtitulada", "Español"],
-        poster: "/media/portadas/EXT_1400x2100.jpg"
+        poster: "/media/portadas/exterminio.jpg"
       },
       {
         id: 3,
@@ -169,7 +169,7 @@
         sinopsis: "Remake de acción real del clásico animado de Disney 'Lilo y Stitch'.",
         disponibilidad: "Cartelera",
         idioma: ["Doblada"],
-        poster: "/media/portadas/1746213779.jpg"
+        poster: "/media/portadas/liloystich.jpg"
       },
       {
         id: 4,
@@ -181,7 +181,7 @@
         sinopsis: "Nuestras vidas son la suma de nuestras decisiones. Tom Cruise es Ethan Hunt en Misión: Imposible – La Sentencia Final.",
         disponibilidad: "Cartelera",
         idioma: ["Subtitulada", "Doblada"],
-        poster: "/media/portadas/1744843769.jpg"
+        poster: "/media/portadas/mision_imposible.jpg"
       },
       {
         id: 5,
@@ -193,7 +193,7 @@
         sinopsis: "Si interfieres en los planes de la Muerte, las cosas pueden volverse muy... desordenadas.",
         disponibilidad: "Cartelera",
         idioma: ["Subtitulada"],
-        poster: "/media/portadas/1746626561.png"
+        poster: "/media/portadas/destino_final_6.png"
       },
       {
         id: 6,
@@ -205,7 +205,7 @@
         sinopsis: "Una joven llamada Yuri crece temiendo a las criaturas solitarias del bosque conocidas como los ochi...",
         disponibilidad: "Cartelera",
         idioma: ["Doblada"],
-        poster: "/media/portadas/1747089469.png"
+        poster: "/media/portadas/ochi.png"
       },
       {
         id: 7,
@@ -217,7 +217,7 @@
         sinopsis: "Nueva película de la saga 'Karate Kid', conectada al universo de 'Cobra Kai'.",
         disponibilidad: "Cartelera",
         idioma: ["Subtitulada", "Doblada"],
-        poster: "/media/portadas/1745613120.jpg"
+        poster: "/media/portadas/karate_kid.jpg"
       },
       {
         id: 8,
@@ -229,7 +229,7 @@
         sinopsis: "Un mundo sin Vengadores no significa que no haya un grupo de superhéroes. Hay un grupo y se llaman Thunderbolts.",
         disponibilidad: "Cartelera",
         idioma: ["Subtitulada"],
-        poster: "/media/portadas/1744752722.jpg"
+        poster: "/media/portadas/thunderbolts.jpg"
       },
       {
         id: 9,
@@ -241,7 +241,7 @@
         sinopsis: "Hipo es un joven vikingo que no encaja con la tradición de su tribu: cazar dragones. Todo cambia cuando entabla amistad con un Furia Nocturna herido, a quien llama Chimuelo, desatando una historia de valentía y unión inesperada.",
         disponibilidad: "Cartelera",
         idioma: ["Español", "Subtitulada"],
-        poster: "/media/portadas/MV5BY2E5YjE2YTQtZGIxYi00YTU4LTk3YzItYmMyZTM3M2I5ZTM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+        poster: "/media/portadas/entrenar_a_tu_dragon.jpg"
       },
       {
         id: 10,
@@ -253,7 +253,7 @@
         sinopsis: "Elio, un niño solitario con mucha imaginación, es accidentalmente transportado al Comuniverso, una organización interplanetaria que lo confunde con el embajador de la Tierra. Deberá aprender a ser un verdadero líder para salvar su planeta.",
         disponibilidad: "Cartelera",
         idioma: ["Español", "Subtitulada"],
-        poster: "/media/portadas/portada_elio-disney-presenta_disney_202502051650.webp"
+        poster: "/media/portadas/elio_pelicula.webp"
       },
       {
         id: 11,
@@ -265,7 +265,7 @@
         sinopsis: "Clark Kent mientras trata de equilibrar su herencia kryptoniana con su educación humana. Él es la encarnación de la verdad, la justicia y el estilo estadounidense. Él es bondad, pero la realidad es que el mundo piensa que la bondad es anticuada. ¿Es entonces que puede dejar salir su lado menos humano? Superman: Legacy no es una historia de origen del Hombre de Acero, pero marcará el comienzo de la DCU.",
         disponibilidad: "Proximamente",
         idioma: ["Subtitulada", "Doblada"],
-        poster: "/media/portadas/vdsy6x3a8jtd1.webp"
+        poster: "/media/portadas/superman.webp"
       }
     ];
 

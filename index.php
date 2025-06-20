@@ -186,7 +186,7 @@ if (isset($_SESSION['usuario'])) {
 <div id="cumple-overlay" class="position-fixed top-0 start-0 w-100 h-100 bg-dark bg-opacity-75" style="z-index: 1050;"></div>
 
 <div id="cumple-notification" class="position-fixed top-50 start-50 translate-middle p-4 bg-warning shadow-lg rounded-4 text-dark text-center animate__animated animate__zoomIn" style="z-index: 1055; max-width: 90%; width: 400px;">
-  <img src="/media/4c78970ece656a2ead941a86f03e4e86-pastel-de-cumpleanos-removebg-preview.png" alt="Regalo" width="60" class="mb-3">
+  <img src="/media/pastelcumpleaños.png" alt="Regalo" width="60" class="mb-3">
   <h4 class="fw-bold mb-2">¡Feliz cumpleaños, socio!</h4>
   <p class="mb-3">Tienes una <strong>entrada 2D totalmente gratis</strong> válida hasta 3 días desde hoy. Preséntate con tu DNI en taquilla. 🎟️</p>
   <button class="btn btn-dark btn-sm px-4 rounded-pill" onclick="cerrarCumple()">Entendido</button>

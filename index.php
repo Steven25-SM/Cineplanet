@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Cineplanet</title>
-  <link rel="icon" type="icon/png" href="/media/images-removebg-preview.png">
+  <link rel="icon" type="icon/png" href="/media/logo1.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
     
@@ -100,7 +100,7 @@ if (isset($_SESSION['usuario'])) {
   <div class="carousel-inner">
     
     <div class="carousel-item active">
-      <img src="/media/banner_web_desktop_1920x1080 (1).jpg" alt="Banner">
+      <img src="/media/banner1.jpg" alt="Banner">
       <div class="carousel-caption">
         <h3><span class="red-title">Elio</span></h3>
         <p>Elio es un niño con una gran obsesión por los alienígenas,<br> descubre la respuesta a esa pregunta cuando es transportado al<br> Comuniverso</p>
@@ -109,7 +109,7 @@ if (isset($_SESSION['usuario'])) {
     </div>
 
     <div class="carousel-item">
-      <img src="/media/banner_web_desktop_1920x1080 (5).jpg" alt="Banner">
+      <img src="/media/banner3.jpg" alt="Banner">
       <div class="carousel-caption">
         <h3><span class="red-title">Exterminio</span><br><span>la evolución</span></h3>
         <p>Trama no develada. Tercera película de la franquicia<br>"28 días después".</p>
@@ -118,7 +118,7 @@ if (isset($_SESSION['usuario'])) {
     </div>
 
     <div class="carousel-item">
-      <img src="/media/banner_web_desktop_1920x1080 (2).jpg" alt="Banner">
+      <img src="/media/banner2.jpg" alt="Banner">
       <div class="carousel-caption">
         <h3><span class="red-title">Como</span><br><span>Entrenar a Tu<br> dragón</span></h3>
         <p>Un joven vikingo aspira a cazar dragones, pero se convierte<br> inesperadamente en el amigo de un dragón.</p>
@@ -127,7 +127,7 @@ if (isset($_SESSION['usuario'])) {
     </div>
 
     <div class="carousel-item">
-      <img src="/media/banner_web_desktop_1920x1080 (6).jpg" alt="Banner">
+      <img src="/media/banner4.jpg" alt="Banner">
       <div class="carousel-caption">
         <h3><span class="red-title">Super</span><span>man</span></h3>
         <p>La película explora el viaje de Superman para reconciliar su herencia alienígena<br> con su familia humana adoptiva.</p>

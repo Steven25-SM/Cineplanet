@@ -8,7 +8,7 @@ $esAdmin = isset($_SESSION['rol']) && $_SESSION['rol'] === 'admin';
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top <?php echo $esAdmin ? 'navbar-admin' : ''; ?>">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="index.php">
-      <img src="/media/logo1.png" alt="Logo" width="70" height="70" class="me-2">
+      <img src="media/logo1.png" alt="Logo" width="70" height="70" class="me-2">
       cineplanet
     </a>
 
